@@ -1,0 +1,116 @@
+html, body {   /*想要选择2个元素，选择器中间以,隔开*/
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300; /*控制文字的粗细*/
+  line-height: 1.5;
+}
+
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url('images/background.jpg');
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
+}
+
+a {
+  color: #204156;
+  text-decoration: none;
+}
+
+.page-title {
+  text-align: center; /*文本居中*/
+  font-weight: 100;
+}
+
+.page-description {
+  /*请学生创建：边框*/
+   border: 2px dashed black;
+    
+  /*请学生创建并调整：外边距*/
+    margin-top: 20px;
+  text-align: center;
+  /*请学生创建并调整：内边距*/
+    padding 60px 40px; 
+}
+
+.gallery {
+  /*请学生创建并调整：外边距-上*/
+    margin-top: 50px;
+    
+
+    
+    /*请学生将该元素的display调整为:flex*/
+    display: flex;
+    /*请学生防止图片跑出该元素的范围之外*/
+    flex-wrap: wrap;
+    /*请学生将图片居中*/
+    justify-content: center;
+    
+}
+
+.gallery-item {
+  /*请学生创建并调整：外边距-全方向*/
+    margin: 50px;
+}
+
+.gallery-item .thumbnail {
+  /*请学生创建：边框*/
+    border: 2px dotted black;
+}
+
+/* FOOTER NAVIGATION */
+
+nav {
+  background-color:green;
+}
+
+nav li {
+  /*请学生将display设为inline*/
+  display: inline;
+  /*请学生创建并调整：左右内边距自定，上下内边距为0*/
+    padding: 0px 50px ;
+}
+
+nav ul {
+  display: inline;
+}
+
+.contact-btn {
+    margin-right: 10px;
+    float: right;
+    border: 2px solid black;
+  /*请学生设置float-右*/
+}
+
+.contact-btn a {
+  
+  /*请学生创建并调整：外边距-右*/
+    
+  /*请学生设置：内边距-上下，左右*/
+    padding: 10px 20px;
+  /*请学生创建：边框*/
+    border: 4px dotted brack;
+  /*请学校将position设置为relative*/
+    position: relative;
+}
+
+.contact-btn a:active {
+    top: 10px;
+/*请学生将按下该按钮后，该元素进行相对位移的位置进行设置*/
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+
+figcaption {
+    text-align: center;
+}
+
+

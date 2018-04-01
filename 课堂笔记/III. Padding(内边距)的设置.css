@@ -1,0 +1,39 @@
+padding设置案例
+
+p {
+    padding: 30px;   /*所有方向*/
+}
+
+p {
+    padding: 20px 30px;  /*上下，左右*/
+}
+
+p {
+    padding: 1px 2px 3px 4px; /*上，右，下，左*/
+}
+
+
+
+p {
+    padding-top: 30px;   /*内边距-上*/
+}
+
+
+p {
+    padding-bottom: 30px;   /*内边距-下*/
+}
+
+
+p {
+    padding-left: 30px;   /*内边距-左*/
+}
+
+
+p {
+    padding-right: 30px;   /*内边距-右*/
+}
+
+
+
+padding是内边距
+在一个元素中，它控制元素内容和元素边框之间的距离

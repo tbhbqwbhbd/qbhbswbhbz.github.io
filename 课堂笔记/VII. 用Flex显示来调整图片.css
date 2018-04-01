@@ -1,0 +1,9 @@
+ Flex显示案例：
+
+.example {
+    display:flex;  /*设置显示为flex*/
+    flex-wrap:wrap;  /*防止图片跑出父级元素*/
+    justify-content:center; /*将图片居中*/
+}
+
+

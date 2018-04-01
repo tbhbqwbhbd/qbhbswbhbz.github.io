@@ -1,0 +1,11 @@
+Float设置案例：
+
+.example {
+    float:left;
+}
+
+.example {
+    float:right;
+}
+
+float可让某个元素浮动在其父级元素的左右边缘上。

@@ -1,0 +1,14 @@
+创建边框案例：
+
+    /*参数格式：粗细 样式 颜色*/
+p {
+    border: 2px solid black;  /*solid-实线*/
+}
+
+p {
+    border: 2px dotted black;   /*dotted-点状线*/
+}
+
+p {
+    border: 2px dashed black;   /*dashed-虚线*/
+}

@@ -1,0 +1,17 @@
+position属性可以让你精确的调整HTML元素的位置。
+position属性的参数有三种：relative, absolute, fixed。
+
+今天我们只看relative(相对).
+将元素设置了relative后，我们可以让该元素根据自己本该占有的位置进行相对的位移。
+
+案例：
+
+.example {
+    position: relative;
+    top: 10px;   
+    left: 20px;
+    right: 30px;
+    bottom: 40px;
+    
+    /*top, left, right, bottom属性只有在设置了position后方能生效*/
+}
